@@ -1,0 +1,17 @@
+{
+  "name": "expense-tracker-monorepo",
+  "version": "1.0.0",
+  "description": "Full-Stack Expense Tracker application (MERN Stack: MongoDB, Express, React, Node.js)",
+  "scripts": {
+    "install:all": "cd server && npm.cmd install && cd ../client && npm.cmd install",
+    "client": "cd client && npm.cmd run dev",
+    "server": "cd server && npm.cmd run dev",
+    "build": "cd client && npm.cmd run build",
+    "seed": "node server/seed.js",
+    "seed:clear": "node server/seed.js --clear",
+    "test": "cd server && npm.cmd test"
+  },
+  "keywords": ["mern", "expense-tracker", "react", "nodejs", "express", "mongodb"],
+  "author": "Junior Full-Stack Developer",
+  "license": "ISC"
+}
